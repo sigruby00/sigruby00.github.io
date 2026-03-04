@@ -1,0 +1,140 @@
+// ================================================================
+// Academic Research Profile — Custom Styles
+// ================================================================
+
+// ----------------------------------------------------------------
+// Profile Header (index page)
+// ----------------------------------------------------------------
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0 2.5rem;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.profile-photo {
+  flex-shrink: 0;
+
+  img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+
+  .photo-placeholder {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #e8e8e8;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size: 0.9rem;
+  }
+}
+
+.profile-name {
+  font-size: 1.9rem;
+  margin: 0 0 0.2rem;
+  font-weight: 700;
+}
+
+.profile-position {
+  font-size: 1rem;
+  color: #444;
+  margin: 0 0 0.15rem;
+}
+
+.profile-affiliation {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0 0 0.6rem;
+}
+
+.profile-links {
+  font-size: 0.9rem;
+
+  a {
+    color: #2a5caa;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+// ----------------------------------------------------------------
+// Publications page
+// ----------------------------------------------------------------
+.pub-loading {
+  color: #888;
+  font-style: italic;
+}
+
+.pub-section {
+  margin-bottom: 2.5rem;
+}
+
+.pub-category-heading {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  border-bottom: 2px solid #2a5caa;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-item {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid #f0f0f0;
+
+  &:last-child { border-bottom: none; }
+}
+
+.pub-num {
+  color: #888;
+  font-size: 0.85rem;
+  margin-right: 0.15rem;
+}
+
+.pub-title {
+  font-weight: 600;
+  color: #111;
+}
+
+.pub-venue {
+  font-style: italic;
+  color: #333;
+}
+
+.pub-link {
+  font-size: 0.8rem;
+  color: #2a5caa;
+  text-decoration: none;
+  border: 1px solid #2a5caa;
+  padding: 0 0.3rem;
+  border-radius: 2px;
+  margin-left: 0.2rem;
+
+  &:hover {
+    background: #2a5caa;
+    color: #fff;
+  }
+}

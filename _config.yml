@@ -3,9 +3,9 @@
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that.
 
-title: sigruby00's Website
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my personal website. This is a start page built with Jekyll.
+title: Your Name
+description: >-
+  Researcher at Your Institution. Working on [your research area].
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sigruby00.github.io" # the base hostname & protocol for your site
 
