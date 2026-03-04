@@ -6,6 +6,7 @@ title: Welcome
 # Hello World!
 
 This is the start page for my personal website, built with Jekyll and the Minima theme.
+Test commit
 
 ## About This Site
 
