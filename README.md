@@ -1,5 +1,7 @@
 # sigruby00.github.io
 
+check push
+
 개인 웹사이트입니다. Jekyll과 Minima 테마를 사용하여 구축되었습니다.
 
 ## 새로운 페이지 추가하는 방법 (How to Add New Pages)
@@ -107,3 +109,4 @@ bundle exec jekyll serve
 ```
 
 Then open `http://localhost:4000` in your browser to view the site.
+
